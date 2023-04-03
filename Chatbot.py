@@ -39,6 +39,6 @@ def chat():
             continue
         else:
             print("Chatbot: " + generate_response(user_input))
-
+            
 # Memanggil method chat untuk memulai chatbot
 chat()
