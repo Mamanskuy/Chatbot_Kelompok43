@@ -1,7 +1,7 @@
 import random
 
 class Chatbot:
-    def _init_(self):
+    def __init__(self):
         self.sapaan = ["hai", "halo", "hi", "hello", "selamat pagi", "selamat siang", "selamat sore", "selamat malam"]
         self.Exit = ["byee", "goodbye", "sampai jumpa", "dada", "see you", "sampai nanti"]
         self.Trims = ["terima kasih", "thanks", "makasih", "sukron", "terima kasih", "Suwun"]
